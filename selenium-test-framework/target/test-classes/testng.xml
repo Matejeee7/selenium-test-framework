@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Application Test Suite">
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="tests.UiTests"/>
+        </classes>
+    </test>
+
+    <test name="Dynamic Loading Tests">
+        <classes>
+            <class name="tests.DynamicLoadingTests"/>
+        </classes>
+    </test>
+</suite>
